@@ -6,3 +6,13 @@
  * - Create several objects using the class.
  * - Test the objecs by calling their properties and using their methods in the console.
  */
+
+import Shoe from "./Shoe.js";
+
+
+const newShoe = new Shoe(
+    53,
+    'black',
+);
+
+console.log(newShoe.shoeAge());
